@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use(helmet());
 
-app.use("/", reviewsRouter);
+app.use("/api/v1/reviews", reviewsRouter);
 
 app.use("*", (req, res) =>
   res.status(404).json({ error: "This route has not been implemented !" })

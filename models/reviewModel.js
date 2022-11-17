@@ -11,7 +11,7 @@ const reviewSchema = new mongoose.Schema({
     required: [true, "You must define a review !"],
   },
 
-  reviewId: {
+  movieId: {
     type: Number,
     required: [true, "You must define an ID !"],
   },
