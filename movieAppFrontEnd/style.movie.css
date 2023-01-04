@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131720;
+  font-family: sans-serif;
+  color: wheat;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: wheat;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 10px 10px 10px 0px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px 10px;
+}
+
+.card {
+  border-radius: 19px;
+  padding: 15px 15px 5px 15px;
+  background-color: #151f30;
+  height: 300px;
+  width: 400px;
+  opacity: 0.7;
+}
+
+.card:hover {
+  opacity: 0.5;
+}
+
+a[href="#"] {
+  padding: 0px 8px 0px 8px;
+}
